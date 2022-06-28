@@ -1,0 +1,18 @@
+[build]
+rustflags =  [ "-C", "link-args=-Wl,-U,_ua_account"
+             , "-C", "link-args=-Wl,-U,_ua_alloc"
+             , "-C", "link-args=-Wl,-U,_ua_register"
+             , "-C", "link-args=-Wl,-U,_ua_unregister"
+             , "-C", "link-args=-Wl,-U,_ua_fallback"
+             , "-C", "link-args=-Wl,-U,_ua_isregistered"
+             , "-C", "link-args=-Wl,-U,_account_regint"
+             , "-C", "link-args=-Wl,-U,_account_prio"
+             , "-C", "link-args=-Wl,-U,_account_auth_user"
+             , "-C", "link-args=-Wl,-U,_account_auth_pass"
+             , "-C", "link-args=-Wl,-U,_account_set_auth_pass"
+             , "-C", "link-args=-Wl,-U,_baresip_commands"
+             , "-C", "link-args=-Wl,-U,_cmd_register"
+             , "-C", "link-args=-Wl,-U,_cmd_unregister"
+             , "-C", "link-args=-Wl,-U,_ui_password_prompt"
+             , "-C", "link-args=-Wl,-U,_conf_path_get"
+             ]
