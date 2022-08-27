@@ -1,4 +1,4 @@
-[build]
+[target.x86_64-apple-darwin]
 rustflags =  [ "-C", "link-args=-Wl,-U,_ua_account"
              , "-C", "link-args=-Wl,-U,_ua_alloc"
              , "-C", "link-args=-Wl,-U,_ua_register"
